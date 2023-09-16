@@ -9,7 +9,7 @@ const TopMovies = ({ movies }) => {
     return <MovieCard key={movie.id} movie={movie} />;
   });
   return (
-    // <div className="movies-container">{movies_list}</div>
+
     <div className="movies-container">{movie_list}</div>
   );
 };
