@@ -20,7 +20,7 @@ const MovieDetails = () => {
         );
 
         if (response) {
-          console.log(response.data);
+          
           setMovie(response.data);
         }
       } catch (error) {
