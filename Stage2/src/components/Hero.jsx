@@ -30,7 +30,6 @@ const Hero = ({ setSearch, search, loading, setIsLoading }) => {
   }, [search]);
   const fetchQuery = async (p) => {
     try {
-      // also setting loading to true so that the mainpage will know we are try to search
       setIsLoading(true);
       const apiKey = "67144ed18ed5c9c6b40368f0b6400387";
       const response = await axios.get(
