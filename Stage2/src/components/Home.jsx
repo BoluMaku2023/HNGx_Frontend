@@ -80,6 +80,15 @@ const Home = () => {
                 </div>
               </div>
               <TopMovies movies={topMovies} />
+              <div className="footer">
+                <img src="./Social.png" />
+                <div className="linkss">
+                  <h2>Conditions of Use</h2>
+                  <h2>Privacy & Policy</h2>
+                  <h2>Press Room</h2>
+                </div>
+                <h2>© 2021 MovieBox by Adriana Eka Prayudha </h2>
+              </div>
             </div>
           </>
         )}
